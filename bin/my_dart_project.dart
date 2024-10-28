@@ -15,4 +15,6 @@ class Player {
 void main() {
   var player = Player("nico", 1500);
   player.sayHello();
+  var player2 = Player("lynn", 2500);
+  player2.sayHello();
 }
