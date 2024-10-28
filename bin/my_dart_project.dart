@@ -1,6 +1,13 @@
-String capitalizeName(String? name) => name?.toUpperCase() ?? 'ANON';
+class Player {
+  final String name = 'nico';
+  int xp = 1500;
+
+  void sayHello() {
+    print("Hi my name is $name");
+  }
+}
 
 void main() {
-print(capitalizeName('nico'));
-print(capitalizeName(null));
+  var player = Player();
+  player.sayHello();
 }
