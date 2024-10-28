@@ -1,6 +1,6 @@
 String capitalizeName(String? name) => name?.toUpperCase() ?? 'ANON';
 
 void main() {
-capitalizeName('nico');
-capitalizeName(null);
+print(capitalizeName('nico'));
+print(capitalizeName(null));
 }
