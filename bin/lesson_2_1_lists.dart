@@ -1,6 +1,7 @@
 void main() {
   var giveMeFive = true;
   var numbers = [
+    // List는 []대괄호 사용
     1,
     2,
     3,
