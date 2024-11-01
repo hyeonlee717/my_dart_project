@@ -16,7 +16,7 @@ void main() {
   var player2 = Player('lynn', 2500);
   player2.sayHello();
 }
-*/ // lesson 3의 function에서 했던 것 처럼
+*/ // lesson 3의 function에서 했던 것 처럼 positional이 아니라 named방식으로 바꿀거임
 
 /*
 class Player {
@@ -38,7 +38,7 @@ void main() {
   var player2 = Player('lynn', 2500, 'blue', 15);
   player2.sayHello();
 }
-*/ // positional
+*/ // 필드가 많아진 상태의 positional 코드
 
 class Player {
   final String name;
@@ -50,7 +50,7 @@ class Player {
       {required this.name,
       required this.xp,
       required this.team,
-      required this.age});
+      required this.age}); // named constructor parameter
 
   void sayHello() {
     print(
@@ -74,4 +74,4 @@ void main() {
   );
   player2.sayHello();
 }
-// named
+// named 
